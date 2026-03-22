@@ -1,0 +1,169 @@
+body{
+    margin:0;
+    font-family:cursive;
+}
+
+/* HEADER */
+
+header{
+    background-color:#553300;
+    padding:10px;
+}
+
+nav{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+nav img{
+    border-radius:10px;
+}
+
+/* КНОПКИ МЕНЮ */
+
+nav a{
+    text-decoration:none;
+    border-radius:40px;
+    padding:15px 25px;
+    font-size:22px;
+}
+
+.price{
+    background-color:#964309;
+    color:peru;
+}
+
+.gol{
+    background-color:#8C5A3C;
+    color:saddlebrown;
+}
+
+
+.zam{
+    background-color:#AE7B2D;
+    color:peru;
+}
+
+.zni{
+    background-color:#D49537;
+    color:peru;
+}
+
+nav a:hover{
+    background-color:#FFDDAA;
+    color:black;
+}
+
+/* ОСНОВНА ЧАСТИНА */
+
+main{
+    padding:20px;
+}
+
+/* СЕКЦІЯ */
+
+section{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
+
+/* КАРТКИ */
+
+article{
+    width:45%;
+    border:2px solid black;
+    border-radius:10px;
+    padding:10px;
+    background:white;
+    text-align:center;
+}
+
+article img{
+    width:150px;
+    height:150px;
+}
+
+article:hover{
+    background-color:#FFDDAA;
+    transform:scale(1.05);
+    transition:0.3s;
+}
+
+/* ФОРМА */
+
+.dd{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:15px;
+    margin-top:30px;
+    background-color:#553300;
+    border:2px solid black;
+    border-radius:20px;
+    padding:20px;
+    width:300px;
+}
+
+/* КНОПКИ */
+
+button{
+    padding:10px 20px;
+    border:none;
+    border-radius:20px;
+    font-family:cursive;
+    background-color:#AE7B2D;
+    color:white;
+    cursor:pointer;
+}
+
+button:hover{
+    background-color:grey;
+}
+.viduk{
+    background-color: #331900;
+    color: #553300;
+}  
+
+/* FOOTER */
+
+footer{
+    background-color:#553300;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+footer img{
+    width:50px;
+    height:50px;
+    opacity:0.6;
+    margin:10px;
+}
+
+footer img:hover{
+    width:65px;
+    height:65px;
+    opacity:1;
+}
+
+section{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+    text-align: center;
+}
+
+article{
+    width:45%;
+    text-align:center;
+    border:2px solid black;
+    border-radius:10px;
+    padding:10px;
+    margin:10px;
+    background:white;
+    margin-left: 300px;
+}
