@@ -1,0 +1,235 @@
+body{
+    margin:0;
+    font-family:cursive;
+}
+
+/* HEADER */
+
+header{
+    background-color:#553300;
+    padding:10px;
+}
+
+nav{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+nav img{
+    border-radius:10px;
+}
+
+/* КНОПКИ МЕНЮ */
+
+.price{
+    background-color:#964309;
+    color:peru;
+    text-decoration:none;
+    border-radius:40px;
+    padding:15px 25px;
+    font-size:22px;
+}
+.gol{
+    background-color:#8C5A3C;
+    color:saddlebrown;
+     text-decoration:none;
+    border-radius:40px;
+    padding:15px 25px;
+    font-size:22px;
+}
+
+.zam{
+    background-color:#AE7B2D;
+    color:peru;
+    text-decoration:none;
+    border-radius:40px;
+    padding:15px 25px;
+    font-size:22px;
+}
+
+.zni{
+    background-color:#D49537;
+    color:peru;
+    text-decoration:none;
+    border-radius:40px;
+    padding:15px 25px;
+    font-size:22px;
+}
+.viduk{
+    background-color: #331900;
+    color: #553300;
+    text-decoration:none;
+    border-radius:40px;
+    padding:15px 25px;
+    font-size:22px;
+}  
+nav a:hover{
+    background-color:#FFDDAA;
+    color:black;
+}
+
+/* ОСНОВНА ЧАСТИНА */
+
+main{
+    display:flex;
+}
+
+/* ФІЛЬТР */
+
+form{
+    background-color:#FFDDAA;
+    padding:20px;
+    width:220px;
+    height: 1000px;
+    font-size:18px;
+}
+
+/* КАТАЛОГ */
+
+.catalog1{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    padding:20px;
+}
+
+/* КАРТКИ ТОВАРІВ */
+
+article{
+    width:220px;
+    text-align:center;
+    border:2px solid black;
+    border-radius:10px;
+    padding:10px;
+    margin:10px;
+    background:white;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+article{
+    width: 45%;
+    text-align: center;
+}
+
+article img{
+    width: 200px;
+}
+
+
+
+article{
+    width: 45%;
+    padding: 10px;
+    border: 2px solid #ccc;
+}
+
+
+
+
+article img{
+    width:150px;
+    height:150px;
+}
+
+article:hover{
+    background-color:#FFDDAA;
+    transform:scale(1.05);
+    transition:0.3s;
+}
+
+/* КНОПКИ */
+
+button{
+    padding:10px 20px;
+    border:none;
+    border-radius:20px;
+    font-family:cursive;
+    background-color:#AE7B2D;
+    color:white;
+    cursor:pointer;
+}
+
+button:hover{
+    background-color:grey;
+}
+
+/* БЛОК ДОСТАВКИ */
+
+div{
+    width:100%;
+    background-color:bisque;
+    padding:30px;
+    text-align:center;
+}
+
+div p{
+    max-width:900px;
+    margin:auto;
+}
+
+/* FOOTER */
+
+footer{
+    background-color:#553300;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+footer img{
+    width:50px;
+    height:50px;
+    opacity:0.6;
+    margin:10px;
+}
+
+footer img:hover{
+    width:65px;
+    height:65px;
+    opacity:1;
+}
+.z{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.dd{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 30px;
+    background-color:#553300;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+
+}
+.catalog1 article{
+    height:450px;
+}
+.article4{
+    text-align: center;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+article{
+    width: 45%;
+    text-align: center;
+}
+.viduk{
+    background-color: #331900;
+    color: #553300;
+}  
